@@ -1,2 +1,23 @@
 update-help         # allows use of Get-Help 
 Get-Member          # gets methods & properties of an object
+# https://www.tutorialspoint.com/powershell/
+Get-Date
+Get-Date -DisplayHint Time
+Get-Content D:\temp\test\test.txt 
+Clear-Content D:\temp\test\test.txt
+Set-Content D:\temp\test\test.txt 'Hello'
+get-unique
+get-content D:\temp\test\test.txt | measure-object -character -line -word
+# alias to wc
+Format-List -InputObject $A
+switch(<test-value>) {
+   <condition> {<action>} 
+      break; // optional
+   <condition> {<action>} 
+      break; // optional
+   <condition> {<action>} 
+      break; // optional
+}
+ConvertFrom-Json
+ConvertTo-CSV
+# https://www.tutorialspoint.com/how-to-convert-json-file-to-csv-file-using-powershell

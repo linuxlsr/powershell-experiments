@@ -1,0 +1,11 @@
+{
+	"user": [{
+		"name": "Fred Flinstone",
+		"job": "dino digger",
+		"spouse": "Wilma"
+	}, {
+		"name": "Barney Rubble",
+		"job": "rock hauler",
+		"spouse": "Betty"
+	}]
+}
