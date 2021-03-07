@@ -1,0 +1,2 @@
+update-help         # allows use of Get-Help 
+Get-Member          # gets methods & properties of an object
